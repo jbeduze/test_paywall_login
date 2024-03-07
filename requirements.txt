@@ -1,3 +1,5 @@
 streamlit
 st-paywall
 streamlit-authenticator
+streamlit-extras
+st-login-form
