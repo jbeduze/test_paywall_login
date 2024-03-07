@@ -8,7 +8,6 @@ st.title ("login and stripe payment (test mode)")
 st.write("multi-step layout")
 
 
-
 container1 = st.container(border=True)
 col1, col2 = st.columns(2)
 with container1:
@@ -24,7 +23,8 @@ with container1:
             """
             html(stripe_js, height=250)
         with col2:
-            st.write("placeholder for Stripe QR code")
+            image_url= 'https://dashboard.stripe.com/payment-links/plink_1OrDRGDvYq7iSz1potw7ugiA'
+            st.image(image_url, caption= 'scan me!', height=250)
 
 
         
