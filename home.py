@@ -4,19 +4,6 @@ from streamlit.components.v1 import html
 from streamlit.components.v1 import components
 from streamlit_extras.add_vertical_space import add_vertical_space
 
-
-# st.title ("login and stripe payment (test mode)")
-# st.write("multi-step layout")
-
-
-# container1 = st.container(border=True)
-# 
-
-#     if st.button("Accept Terms and conditions", use_container_width=True):
-#         # if st.button("returning customer"):
-#         # elif st.button("New customer"):
-#         
-
 # Initialize session state variables if they don't exist
 if 'terms_accepted' not in st.session_state:
     st.session_state['terms_accepted'] = False
